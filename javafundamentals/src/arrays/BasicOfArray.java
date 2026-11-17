@@ -17,6 +17,10 @@ public class BasicOfArray {
 //        System.out.println("size of array: "+age.length);
 
         int marks[] = {23,40,55,90,75};
-        System.out.println(marks[0]);
+        for(int i = 0; i<marks.length; i++){
+            System.out.println(marks[i]);
+        }
+
+       // System.out.println(marks.);
     }
 }
